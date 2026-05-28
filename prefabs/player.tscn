@@ -1,5 +1,14 @@
 [gd_scene format=3 uid="uid://cw0v4rsqusvfh"]
 
-[node name="player" type="Node2D" unique_id=1139976317]
+[ext_resource type="Texture2D" uid="uid://lseatqilwr0q" path="res://assets/Free/Main Characters/Ninja Frog/Fall (32x32).png" id="1_72ieh"]
 
-[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1694168564]
+[sub_resource type="CircleShape2D" id="CircleShape2D_4dohe"]
+radius = 11.18034
+
+[node name="player" type="CharacterBody2D" unique_id=491055984]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1749417405]
+texture = ExtResource("1_72ieh")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=330327779]
+shape = SubResource("CircleShape2D_4dohe")
