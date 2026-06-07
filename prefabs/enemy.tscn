@@ -1,24 +1,9 @@
 [gd_scene format=3 uid="uid://31upkbcovtlk"]
 
-[ext_resource type="Texture2D" uid="uid://ccqi5ferlrggp" path="res://assets/Free/Main Characters/Mask Dude/Jump (32x32).png" id="1_6n8dw"]
+[ext_resource type="Texture2D" uid="uid://c2ok4ripyldtd" path="res://assets/FlyingForestEnemies_FREE/Enemy3/Enemy3-No-Movement-In-Animation/Enemy3No-Move-Idle.png" id="1_6n8dw"]
 
-[sub_resource type="CircleShape2D" id="CircleShape2D_yfjof"]
-radius = 60.0
+[node name="enemy" type="Area2D" unique_id=1335683536]
 
-[node name="enemy" type="Node2D" unique_id=624882464]
-position = Vector2(-11, 7)
-metadata/_edit_vertical_guides_ = [-487.0]
-
-[node name="enemy" type="CharacterBody2D" parent="." unique_id=886582978]
-position = Vector2(71.000015, -1)
-scale = Vector2(0.99999994, 1)
-metadata/_edit_group_ = true
-
-[node name="Sprite2D" type="Sprite2D" parent="enemy" unique_id=1463263015]
-position = Vector2(-68, -6.0000076)
-scale = Vector2(3.9105122, 3.15625)
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1851892131]
+position = Vector2(1, 0)
 texture = ExtResource("1_6n8dw")
-
-[node name="CollisionShape2D" type="CollisionShape2D" parent="enemy" unique_id=1038897641]
-position = Vector2(-61, -7)
-shape = SubResource("CircleShape2D_yfjof")
