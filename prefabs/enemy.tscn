@@ -7,9 +7,10 @@ radius = 60.0
 
 [node name="enemy" type="Node2D" unique_id=624882464]
 position = Vector2(-11, 7)
+metadata/_edit_vertical_guides_ = [-487.0]
 
 [node name="enemy" type="CharacterBody2D" parent="." unique_id=886582978]
-position = Vector2(252, 132)
+position = Vector2(71.000015, -1)
 scale = Vector2(0.99999994, 1)
 metadata/_edit_group_ = true
 
